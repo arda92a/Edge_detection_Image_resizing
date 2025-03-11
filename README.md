@@ -11,6 +11,7 @@ It allows users to resize images via command-line arguments and supports both gr
 - Resizes images using **Nearest-Neighbor** and **Bilinear** interpolation methods.
 - Supports grayscale smoothing with a Gaussian kernel.
 - Reads and writes images using OpenCV.
+- **Does not use built-in OpenCV resizing functions**; instead, custom implementations of interpolation methods are used.
 - Command-line interface for flexible usage.
 
 ## Installation
@@ -54,3 +55,4 @@ This project is licensed under the MIT License.
 
 ## Contributing
 Feel free to fork the repository and submit pull requests for improvements!
+
