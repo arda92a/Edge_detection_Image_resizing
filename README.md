@@ -65,6 +65,8 @@ python edge_detection.py input.jpg output --low_thresh 50 --high_thresh 150
   - `tracking(result, strong_x, strong_y, out_name)`: Tracks strong edges.
   - `edge_detection(img, low_thresh, high_thresh, out_name)`: Runs the full edge detection pipeline.
 
+## Sample images with image resizing applied
+
 ## Requirements
 - Python 3.x
 - OpenCV
